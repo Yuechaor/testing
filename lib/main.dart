@@ -133,7 +133,7 @@ class ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
     var uploadTask = ref.putFile(imageFile);
     var textOverlay = await Navigator.push(context, TypeMemeRoute(imageFile));
     if (textOverlay == null) return;
-    var downloadUrl = (await uploadTask.future).downloadUrl;
+    var downloadUrl = await ref.getDownloadURL();
     var message = {
       'sender': {'name': account.displayName, 'imageUrl': account.photoUrl},
       'imageUrl': downloadUrl.toString(),
