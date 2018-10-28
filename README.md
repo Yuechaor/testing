@@ -2,11 +2,13 @@
 An example of a meme-enabled chat app on Flutter, using Firebase, Google Sign In, and device camera integration. 
 
 MemeChat contains platform-specific elements for Android and iOS.
-
-# Usage
+简单翻译： 一个图片meme的聊天软件， google IO 大会上做过现场演示，包含firebase， google 登录， 摄像头整合。
+# Usage（如何使用）
 1. Follow the installation instructions on www.flutter.io to install Flutter.
+ （安装flutter）
 2. You'll need to create a Firebase instance. Follow the instructions at https://console.firebase.google.com.
-3. Once your Firebase instance is created, you'll need to enable anonymous authentication.
+（注册firebase）
+3. Once your Firebase instance is created, you'll need to enable anonymous authentication.（调一下app登入规则）
   - Go to the Firebase Console for your new instance.
   - Click "Authentication" in the left-hand menu
   - Click the "sign-in method" tab
