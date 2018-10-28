@@ -19,21 +19,25 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
-    <array>
-            <dict>
-                    <key>CFBundleTypeRole</key>
-                    <string>Editor</string>
-                    <key>CFBundleURLSchemes</key>
-                    <array>
-                            <string>com.yourcompany.memechat</string>
-                            <string>com.googleusercontent.apps.971570767122-g9q9oetnqm4n22mtb8st97mp330eia3p</string>
-                    </array>
-            </dict>
-    </array>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.printF.memeChat</string>
+				<string>com.googleusercontent.apps.971570767122-g9q9oetnqm4n22mtb8st97mp330eia3p</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Share image to chat participants</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Share image to chat participants</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -55,10 +59,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Share image to chat participants</string>
-    <key>NSCameraUsageDescription</key>
-    <string>Share image to chat participants</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>

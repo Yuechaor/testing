@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "971570767122",
+    "firebase_url": "https://memechat-dde1a.firebaseio.com",
+    "project_id": "memechat-dde1a",
+    "storage_bucket": "memechat-dde1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971570767122:android:cf0765f8d0ba5870",
+        "android_client_info": {
+          "package_name": "com.printF.memeChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971570767122-4jdkhs4s5qp1rn9mjj7u4a73oqgqvbar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGw5qmaf0l5T4LgVu5sqDSln2Y7a7mnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
